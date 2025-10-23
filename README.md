@@ -21,11 +21,11 @@
     <tr>
       <td><a href="https://github.com/allenai/open-instruct">open-instruct</a> (OLMo 2, Tülu 3)</td>
       <td style="text-align:center">✅</td>
-      <td style="text-align:center">copied from <a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/ppo_vllm_thread_ray_gtrl.py#L15">source</a>) and <a href="https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero">Open Reasoner Zero</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/ppo_fast.py#L33">source</a>)</td>
+      <td style="text-align:center"><a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/ppo_vllm_thread_ray_gtrl.py#L15">source</a>) and <a href="https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero">Open Reasoner Zero</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/ppo_fast.py#L33">source</a>)</td>
       <td style="text-align:center">✅</td>
-      <td style="text-align:center">copied from <a href="https://github.com/eric-mitchell/direct-preference-optimization">Eric Mitchell</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/dpo_utils.py#L17">source</a>) but has optimizations (e.g. <a href="https://github.com/allenai/open-instruct/pull/364">this</a>)</td>
+      <td style="text-align:center"><a href="https://github.com/eric-mitchell/direct-preference-optimization">Eric Mitchell</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/dpo_utils.py#L17">source</a>) but has optimizations (e.g. <a href="https://github.com/allenai/open-instruct/pull/364">this</a>)</td>
       <td style="text-align:center">✅</td>
-      <td style="text-align:center">copied from <a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/grpo_vllm_thread_ray_gtrl.py#L15">source</a>)</td>
+      <td style="text-align:center"><a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/grpo_vllm_thread_ray_gtrl.py#L15">source</a>)</td>
     </tr>
     <tr>
       <td>SmolLM 3</td>
