@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Model Name</th>
+      <th rowspan="2" style="min-width: 250px">Model Name</th>
       <th colspan="2" style="text-align:center">PPO</th>
       <th colspan="2" style="text-align:center">DPO</th>
       <th colspan="2" style="text-align:center">GRPO</th>
