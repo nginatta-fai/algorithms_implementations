@@ -7,8 +7,11 @@
       <th colspan="2" style="text-align:center">PPO</th>
       <th colspan="2" style="text-align:center">DPO</th>
       <th colspan="2" style="text-align:center">GRPO</th>
+      <th colspan="2" style="text-align:center">QRPO</th>
     </tr>
     <tr>
+      <th style="text-align:center">Used</th>
+      <th style="text-align:center">Implementation</th>
       <th style="text-align:center">Used</th>
       <th style="text-align:center">Implementation</th>
       <th style="text-align:center">Used</th>
@@ -26,6 +29,8 @@
       <td style="text-align:center"><a href="https://github.com/eric-mitchell/direct-preference-optimization">Eric Mitchell</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/dpo_utils.py#L17">source</a>) but has optimizations (e.g. <a href="https://github.com/allenai/open-instruct/pull/364">this</a>)</td>
       <td style="text-align:center">✅</td>
       <td style="text-align:center"><a href="https://github.com/OpenRLHF/OpenRLHF">OpenRLHF</a> (<a href="https://github.com/allenai/open-instruct/blob/7ba4cd0122647863b66dd4a41040d329bec7a9a2/open_instruct/grpo_vllm_thread_ray_gtrl.py#L15">source</a>)</td>
+      <td style="text-align:center">❌</td>
+      <td style="text-align:center"></td>
     </tr>
     <tr>
       <td>SmolLM 3</td>
@@ -35,6 +40,19 @@
       <td style="text-align:center"><a href="https://github.com/huggingface/trl">trl</a> (<a href="github.com/huggingface/alignment-handbook/blob/main/recipes/smollm3/dpo/apo.yaml">source</a>)</td>
       <td style="text-align:center">❌</td>
       <td style="text-align:center"></td>
+      <td style="text-align:center">❌</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td>Apertus</td>
+      <td style="text-align:center">❌</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">❌</td>
+      <td style="text-align:center">wrapper for <a href="https://github.com/huggingface/trl">trl</a> (<a href="https://github.com/swiss-ai/posttraining/blob/main/src/post_training/trainers/dpo.py">source</a>)</td>
+      <td style="text-align:center">❌</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">✅</td>
+      <td style="text-align:center">in-house (<a href="https://github.com/swiss-ai/posttraining/blob/93a2fd76a3beec975dd60320ba94f295d6af662a/src/post_training/trainers/preference.py#L1454">source</a>)</td>
     </tr>
   </tbody>
 </table>
